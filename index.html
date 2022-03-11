@@ -5,20 +5,22 @@
     <title>Title</title>
 </head>
 <body id="body">
-<h1>Do you love me ? </h1>
-<button onclick="Yes()">Yes</button>
-<button style="position: absolute; left:80px; top:80px;" onmouseover="diChuyen()" id="btn">No</button>
-<script>
-    let btn = document.getElementById('btn');
-    let bd = document.getElementById('body');
-    function diChuyen() {
-        btn.style.left = Math.random() * 1000 + 'px';
-        btn.style.top = Math.random() * 400 + 'px';
-    }
-    function Yes() {
-        alert("Anh cung the");
-        bd.style.background = "url('https://cdn.chanhtuoi.com/uploads/21/07/w400/tinh-yeu-la-gi-dinh-nghia-chuan.jpg.webp')"
-    }
-</script>
+<center>
+    <h1>Do you love me ? </h1>
+    <button onclick="Yes()">Yes</button>
+    <button style="position: absolute; left:800px; top:80px;" onmouseover="diChuyen()" id="btn">No</button>
+    <script>
+        let btn = document.getElementById('btn');
+        let bd = document.getElementById('body');
+        function diChuyen() {
+            btn.style.left = Math.random() * 1000 + 'px';
+            btn.style.top = Math.random() * 400 + 'px';
+        }
+        function Yes() {
+            alert("Anh cung the");
+            bd.style.background = "url('https://cdn.chanhtuoi.com/uploads/21/07/w400/tinh-yeu-la-gi-dinh-nghia-chuan.jpg.webp')"
+        }
+    </script>
+</center>
 </body>
 </html>
